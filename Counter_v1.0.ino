@@ -1,8 +1,8 @@
 
 
-int latch=3;  //74HC595  pin 9 STCP
-int clock=4; //74HC595  pin 10 SHCP
-int data=2;   //74HC595  pin 8 DS
+int latch=3;  //74HC595  pin 3 STCP
+int clock=4; //74HC595  pin 4 SHCP
+int data=2;   //74HC595  pin 2 DS
 int BUTTONDown = 9;
 int BUTTONUp = 8;
 int lastStateUp = LOW;  // the previous state from the input pin
